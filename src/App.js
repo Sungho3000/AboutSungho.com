@@ -18,7 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
 <<<<<<< HEAD
-          Vlad testing something
+          BLAHBLAHBLAH TEST!@#
         </a>
 =======
 Vlad testing        </a>
