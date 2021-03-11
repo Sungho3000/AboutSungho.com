@@ -31,11 +31,18 @@ const Logo = styled(Link)`
     font-style: italic;
 `;
 
-const MenuBars = styled.i``;
+const MenuBars = styled.i`
+display:none;
+`;
 
 const NavMenu = styled.div`
 display:flex;
 align-items:center;
+margin-right: -48px;
+
+@media screen and (max-width 768px){
+    display:none;
+}
 `;
 
 const NavMenuLinks = styled(Link)`
@@ -46,6 +53,11 @@ const NavBtn = styled.div`
 display:flex;
 align-items:center;
 margin-right:24px;
+
+
+@media screen and (max-width 768px){
+    display:none;
+}
 `;
 
 
@@ -70,7 +82,7 @@ export const Navbar = () => {
 
             </NavMenu>
             <NavBtn>
-                <Button to='/contact' primary='true'>Contact Us</Button>
+                <Button to='/contact' primary='true'>Contact</Button>
             </NavBtn>
         </Nav>
     );

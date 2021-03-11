@@ -18,6 +18,7 @@ align-items:center;
 padding: ${({big}) => (big ? '16px 40px' : '14px 24px')};
 color: ${({primary}) => (primary ? '#fff' : '#000d1a')};
 font-size: ${({big}) => (big ? '20px' : '14px')};
+text-decoration:none;
 
 &:hover{
     transform: translateY(-2px);
