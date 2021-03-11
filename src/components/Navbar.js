@@ -2,6 +2,7 @@ import React from 'react'
 import styled, {css} from 'styled-components/macro'
 import {Link} from 'react-router-dom'
 import { menuData } from '../data/MenuData';
+import { Button } from './Button';
 
 // Styled Components (CSS)
 const Nav = styled.nav`
@@ -41,6 +42,12 @@ const NavMenuLinks = styled(Link)`
 ${NavLink}
 `;
 
+const NavBtn = styled.div`
+display:flex;
+align-items:center;
+margin-right:24px;
+`;
+
 
 export const Navbar = () => {
     return (
@@ -62,7 +69,9 @@ export const Navbar = () => {
     ))}
 
             </NavMenu>
-            <h1>Testing</h1>
+            <NavBtn>
+                <Button to='/contact' primary='true'>Contact Us</Button>
+            </NavBtn>
         </Nav>
     );
 };
