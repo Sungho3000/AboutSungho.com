@@ -1,6 +1,6 @@
 import React from 'react'
-import styled, {css} from 'styled-components/macro'
-import {Link} from 'react-router-dom'
+import styled, { css } from 'styled-components/macro'
+import { Link } from 'react-router-dom'
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
 
@@ -40,7 +40,7 @@ display:flex;
 align-items:center;
 margin-right: -48px;
 
-@media screen and (max-width 768px){
+@media screen and (max-width: 768px){
     display:none;
 }
 `;
@@ -55,7 +55,7 @@ align-items:center;
 margin-right:24px;
 
 
-@media screen and (max-width 768px){
+@media screen and (max-width: 768px){
     display:none;
 }
 `;
@@ -67,18 +67,16 @@ export const Navbar = () => {
             {/* Logo  */}
             <Logo to="/">Sungho</Logo>
 
-            <MenuBars/>
+            <MenuBars />
 
             {/* Links being mapped: index.js contains data */}
             <NavMenu>
 
                 {menuData.map((item, index) => (
-
                     <NavMenuLinks to={item.link} key={index}>
                         {item.title}
                     </NavMenuLinks>
-
-    ))}
+                ))}
 
             </NavMenu>
             <NavBtn>
