@@ -1,8 +1,9 @@
-import React from 'react'
-import styled, { css } from 'styled-components/macro'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import styled, { css } from 'styled-components/macro';
+import { Link } from 'react-router-dom';
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
+import { FaBars } from 'react-icons/fa';
 
 // Styled Components (CSS)
 const Nav = styled.nav`
@@ -31,8 +32,12 @@ const Logo = styled(Link)`
     font-style: italic;
 `;
 
-const MenuBars = styled.i`
+const MenuBars = styled(FaBars)`
 display:none;
+
+@media screen and (max-width: 768px){
+    display:block;
+}
 `;
 
 const NavMenu = styled.div`
