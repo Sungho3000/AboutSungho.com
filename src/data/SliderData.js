@@ -9,21 +9,24 @@ export const SliderData = [
         description:'this is an image',
         image: ImageOne,
         alt:'something',
-        path:'/home'
+        path:'/home',
+        label: 'Click Here '
     },
     {
         title: 'Sungho 2',
         description:'this is an image',
         image: ImageOne,
         alt:'something',
-        path:'/home'
+        path:'/home',
+        label: 'Click Here2 '
     },
     {
         title: 'Sungho 3',
         description:'this is an image',
         image: ImageOne,
         alt:'something',
-        path:'/home'
+        path:'/home',
+        label: 'Click Here3 '
     }
 
 ]
