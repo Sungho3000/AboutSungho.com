@@ -1,14 +1,13 @@
 import ImageOne from '../images/ImageOne.jpg';
 import ImageTwo from '../images/ImageTwo.jpg';
-// import ImageTwo from '../images/ImageTwo.png';
-// import ImageThree from '../images/ImageThree.png';
-// import ImageFour from '../images/ImageFour.png';
+import ImageThree from '../images/ImageThree.jpg';
+import ImageFour from '../images/ImageFour.jpg';
 
 export const SliderData = [
     {
         title: 'Sungho Park',
         description:'Learn more about me.',
-        image: ImageOne,
+        image: ImageFour,
         alt:'Sungho Park',
         path:'/Home',
         label: 'About Me'
@@ -24,7 +23,7 @@ export const SliderData = [
     {
         title: 'Contact Me',
         description:'Questions comments and concerns?',
-        image: ImageOne,
+        image: ImageThree,
         alt:'Contact',
         path:'/Contact',
         label: 'Contact Me'
