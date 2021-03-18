@@ -14,13 +14,13 @@ const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     width: 100%;
-    background-color: rgba(0,0,0,.9);
+    background: #004953;
     text-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
  
 `;
 
 const NavLink = css`
-color: teal;
+color: #fff;
 display: flex;
 align-items: center;
 padding:0 1rem;
