@@ -1,4 +1,5 @@
-import ImageOne from '../images/ImageOne.png';
+import ImageOne from '../images/ImageOne.jpg';
+import ImageTwo from '../images/ImageTwo.jpg';
 // import ImageTwo from '../images/ImageTwo.png';
 // import ImageThree from '../images/ImageThree.png';
 // import ImageFour from '../images/ImageFour.png';
@@ -15,7 +16,7 @@ export const SliderData = [
     {
         title: 'Sungho 2',
         description:'this is an image',
-        image: ImageOne,
+        image: ImageTwo,
         alt:'something',
         path:'/home',
         label: 'Click Here2 '
