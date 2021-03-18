@@ -14,7 +14,8 @@ const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     width: 100%;
-    
+    background-color: rgba(0,0,0,.6);
+ 
 `;
 
 const NavLink = css`
@@ -25,6 +26,7 @@ padding:0 1rem;
 height 100%;
 cursor: pointer;
 text-decoration:none;
+
 `;
 
 const Logo = styled(Link)`
