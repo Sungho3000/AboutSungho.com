@@ -6,28 +6,28 @@ import ImageTwo from '../images/ImageTwo.jpg';
 
 export const SliderData = [
     {
-        title: 'Sungho 1',
-        description:'this is an image',
+        title: 'Sungho Park',
+        description:'Learn more about me.',
         image: ImageOne,
-        alt:'something',
-        path:'/home',
-        label: 'Click Here '
+        alt:'Sungho Park',
+        path:'/Home',
+        label: 'About Me'
     },
     {
-        title: 'Sungho 2',
-        description:'this is an image',
+        title: 'Projects',
+        description:'Check out some of my recent projects!',
         image: ImageTwo,
-        alt:'something',
-        path:'/home',
-        label: 'Click Here2 '
+        alt:'Projects',
+        path:'/Projects',
+        label: 'Projects'
     },
     {
-        title: 'Sungho 3',
-        description:'this is an image',
+        title: 'Contact Me',
+        description:'Questions comments and concerns?',
         image: ImageOne,
-        alt:'something',
-        path:'/home',
-        label: 'Click Here3 '
+        alt:'Contact',
+        path:'/Contact',
+        label: 'Contact Me'
     }
 
 ]
