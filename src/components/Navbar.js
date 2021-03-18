@@ -20,7 +20,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = css`
-color: #fff;
+color: teal;
 display: flex;
 align-items: center;
 padding:0 1rem;
@@ -76,13 +76,13 @@ margin-right:24px;
 `;
 
 
-export const Navbar = () => {
+export const Navbar = ({toggle}) => {
     return (
         <Nav>
             {/* Logo  */}
             <Logo to="/">Sungho</Logo>
 
-            <MenuBars />
+            <MenuBars onClick={toggle}/>
 
             {/* Links being mapped: index.js contains data */}
             <NavMenu>
