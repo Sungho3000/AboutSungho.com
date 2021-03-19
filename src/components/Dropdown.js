@@ -70,7 +70,7 @@ justify-content:center;
 const Dropdown = ({isOpen, toggle}) => {
     return (
         <DropdownContainer isOpen={isOpen} onClick={toggle}>
-            <Icon onClic={toggle}>
+            <Icon onClick={toggle}>
                 <CloseIcon/>
             </Icon>
             <DropdownWrapper>
